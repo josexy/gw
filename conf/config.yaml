@@ -1,0 +1,21 @@
+server:
+  port: 10086
+  mode: debug
+  logfile_dir: ./logs/
+
+mysql:
+  hostname: 127.0.0.1
+  port: 3306
+  username: root
+  password: 12345
+  db: gateway_test
+
+redis:
+  hostname: 127.0.0.1
+  port: 6379
+  password: 12345
+  db: 0
+
+etcd:
+  endpoints:
+    - 127.0.0.1:2379
